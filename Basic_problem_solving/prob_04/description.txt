@@ -1,0 +1,21 @@
+Problem 4: Leap Year or Not
+Time Limit: 1 Seconds
+Memory Limit: 2.93 MB
+
+Statement
+You will be given a year Y. Check whether it is a leap year or not.
+A year is a leap year if it is divisible by 400, or divisible by 4 but not by 100.
+
+Constraints
+1000 <= Y <= 9999
+
+Input format
+The input consists of an integer Y.
+
+Output Format
+Print Leap Year or Not Leap Year.
+
+Sample Input 1
+2020
+Sample Output 1
+Leap Year
