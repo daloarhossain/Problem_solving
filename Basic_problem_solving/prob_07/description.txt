@@ -1,0 +1,24 @@
+Problem 7: Time of Day
+Time Limit: 1 Seconds
+Memory Limit: 2.93 MB
+
+Statement
+You will be given an integer H representing the hour in 24-hour format (0–23). Print the time of day as follows:
+"Morning" if 5 <= H < 12
+"Afternoon" if 12 <= H < 17
+"Evening" if 17 <= H < 21
+"Night" otherwise
+
+Constraints
+0 <= H <= 23
+
+Input format
+The input consists of an integer H.
+
+Output Format
+Print Morning, Afternoon, Evening, or Night.
+
+Sample Input 1
+19
+Sample Output 1
+Evening
