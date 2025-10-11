@@ -23,5 +23,8 @@ int main()
         float divid = number_one / number_two;
         printf("%.2f", divid);
     }
+
+
+    return 0;
     
 }

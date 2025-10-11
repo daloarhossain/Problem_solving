@@ -12,4 +12,6 @@ int main()
     {
         printf("Non Zero");
     }
+
+    return 0;
 }

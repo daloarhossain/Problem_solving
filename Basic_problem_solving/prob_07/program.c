@@ -18,5 +18,8 @@ int main()
     else{
         printf("Night");
     }
+
+
+    return 0;
     
 }
