@@ -1,0 +1,23 @@
+Problem 3: Positive, Negative or Zero
+Time Limit: 1 Seconds
+Memory Limit: 2.93 MB
+
+Statement
+You will be given an integer N.
+Print "Positive" if N > 0
+Print "Negative" if N < 0
+Print "Zero" if N = 0
+
+Constraints
+-1000 <= N <= 1000
+
+Input format
+The input consists of an integer N.
+
+Output Format
+Print Positive, Negative, or Zero.
+
+Sample Input 1
+-15
+Sample Output 1
+Negative
