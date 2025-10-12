@@ -1,0 +1,34 @@
+Problem 09: Multiples
+time limit per test1 second
+memory limit per test256 megabytes
+
+Statement
+You are given two integers A and B.
+Print "Multiples" if A is a multiple of B or B is a multiple of A. Otherwise, print "No Multiples".
+
+Input
+Only one line containing two integers A and B (1 ≤ A, B ≤ 10⁶)
+
+Output
+Print "Multiples" if one of the numbers is a multiple of the other. Otherwise, print "No Multiples".
+
+Examples
+Input
+9 3
+Your output should be:
+Multiples
+
+Input
+6 24
+Your output should be:
+Multiples
+
+Input
+12 5
+Your output should be:
+No Multiples
+
+Explanation
+In the first example, 9 is divisible by 3, so the answer is Multiples.
+In the second example, 6 is not divisible by 24, but 24 is divisible by 6, so the answer is Multiples.
+In the third example, neither 12 is divisible by 5 nor 5 by 12, so the answer is No Multiples.
