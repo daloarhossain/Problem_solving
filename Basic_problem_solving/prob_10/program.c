@@ -5,7 +5,7 @@ int main()
     char numbers[10];
     scanf("%s",  &numbers);
 
-    // checking the condition and converting string to int;
+    // checking the condition and converting string into int;
     int condition = (numbers[0] - '0') % 2 == 0;
 
     if(condition){
