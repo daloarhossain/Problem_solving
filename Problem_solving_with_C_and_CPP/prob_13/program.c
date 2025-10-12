@@ -8,10 +8,10 @@ int main()
     // find the maximum number among three numbers
     int min_num, max_num;
 
-    if(num_one > num_two && num_one > num_three){
+    if(num_one >= num_two && num_one >= num_three){
         max_num = num_one;
     }
-    else if(num_two > num_one && num_two > num_three){
+    else if(num_two > num_one && num_two >= num_three){
         max_num = num_two;
     }
     else{
@@ -19,10 +19,10 @@ int main()
     }
 
     // find the minimum numbers among three numbers
-    if(num_one < num_two && num_one < num_three){
+    if(num_one <= num_two && num_one <= num_three){
         min_num = num_one;
     }
-    else if(num_two < num_one && num_two < num_three){
+    else if(num_two <= num_one && num_two <= num_three){
         min_num = num_two;
     }
     else{
