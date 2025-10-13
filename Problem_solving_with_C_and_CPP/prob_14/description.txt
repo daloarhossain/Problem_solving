@@ -1,0 +1,23 @@
+Problem 14: C. Simple Calculator
+time limit per test1 second
+memory limit per test256 megabytes
+
+Statement
+Given two numbers X and Y. Print the summation, multiplication, and subtraction of these two numbers.
+
+Input
+Only one line containing two separated numbers X and Y (1 ≤ X, Y ≤ 10⁵).
+
+Output
+Print 3 lines that contain the following in the same order:
+"X + Y = summation result" without quotes.
+"X * Y = multiplication result" without quotes.
+"X - Y = subtraction result" without quotes.
+
+Example
+Input : 5 10
+
+Output:
+5 + 10 = 15
+5 * 10 = 50
+5 - 10 = -5
