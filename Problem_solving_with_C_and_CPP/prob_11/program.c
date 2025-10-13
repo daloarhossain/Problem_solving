@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// Solution 01
 int main()
 {
     char charecter;
@@ -17,4 +18,19 @@ int main()
     }
 
     return 0;
+}
+
+// solution 02
+int main(){
+    char ch;
+    scanf("%c", &ch);
+
+    // 32 is a ascii value that indicates the difference uppercase and lowercase alphabet
+
+    if(ch >= 'a' && ch <= 'z'){
+        printf("%c", ch - 32);
+    }
+    else{
+        printf("%c", ch + 32);
+    }
 }
