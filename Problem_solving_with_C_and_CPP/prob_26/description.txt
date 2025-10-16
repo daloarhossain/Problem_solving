@@ -1,0 +1,36 @@
+Problem 26: Ali Baba and Puzzles
+time limit per test 1 second
+memory limit per test 256 megabytes
+
+Statement
+One day, Ali Baba had an easy puzzle that he couldn't solve. The puzzle consisted of 4 numbers and his task was to check whether he could get the fourth number using arithmetic operators (+, −, ×) between the other three numbers; each operator must be used exactly once.
+
+That is, determine whether it's possible to place the operators to form an expression of the form:
+a □ b □ c = d
+
+where each of the three operators (+, −, ×) appears exactly once among the two operator positions (so one operator will be unused — interpret as you must use any two of the three? **[Note:** follow problem's original intention: use operators between the three numbers so that each operator is used only once — equivalently check whether some ordering/placement of two operators chosen from {+,−,×} and placements yields d.**]**
+
+Input
+Only one line containing four numbers a, b, c and d (−10⁹ ≤ a, b, c ≤ 10⁹), (−10¹⁸ ≤ d ≤ 10¹⁸).
+
+Output
+Print "YES" (without quotes) if you can obtain the fourth number using arithmetic operators as described, otherwise print "NO" (without quotes).
+
+Examples
+Input
+3 4 5 23
+Output
+YES
+
+Input
+9 5 3 7
+Output
+YES
+
+Input
+1 2 3 1
+Output
+NO
+
+Note
+Use the standard meanings of addition (+), subtraction (−) and multiplication (×).
