@@ -1,0 +1,48 @@
+**Problem 27: Divisors**
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+Given a number N. Print all the divisors of N in ascending order.
+
+**Input**
+Only one line containing a number N (1 ≤ N ≤ 10⁴).
+
+**Output**
+Print all positive divisors of N, one number per line.
+
+**Examples**
+
+Input
+6
+
+Output
+1
+2
+3
+6
+
+Input
+7
+
+Output
+1
+7
+
+Input
+4
+
+Output
+1
+2
+4
+
+**Note**
+A divisor of a number is a number that divides the integer exactly (with no remainder).
+
+For example:
+
+* 3 is a divisor of 12, because 12 ÷ 3 = 4 exactly.
+* 4 is a divisor of 12, because 12 ÷ 4 = 3 exactly.
+* 5 is **not** a divisor of 12, because 12 ÷ 5 = 2 with a remainder of 2.
+
+A divisor is also known as a **factor** of the original integer.
