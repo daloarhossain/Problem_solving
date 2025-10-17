@@ -1,0 +1,33 @@
+**Problem 31: Sum Sum**
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+You will be given a positive integer N and then N numbers.
+You need to calculate and print the **sum of positive numbers** and the **sum of negative numbers**, separated by a space.
+
+**Input**
+First line will contain an integer N.
+Second line will contain N integers named V.
+
+**Constraints**
+1 ≤ N ≤ 10⁵
+−1000 ≤ V ≤ 1000
+
+**Output**
+Print two integers — the sum of positive numbers first, followed by the sum of negative numbers.
+
+**Examples**
+
+Input
+6
+5 −3 9 −10 2 8
+
+Output
+24 −13
+
+Input
+4
+1 0 −5 3
+
+Output
+4 −5
