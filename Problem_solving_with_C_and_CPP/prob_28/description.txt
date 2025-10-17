@@ -1,0 +1,44 @@
+Problem: I Want More Assignments
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+You will be given a positive integer N. You need to print "I Want More Assignments" N times (without quotation marks).
+Also, print the numbers from 1 to N before each line.
+
+Input
+Input will contain only one integer N.
+
+Constraints
+1 ≤ N ≤ 10⁵
+
+Output
+Print "I Want More Assignments" N times along with numbers from 1 to N.
+Each line should contain the number followed by a dot (.) and a space before the text.
+
+Examples
+
+Input
+5
+
+Output
+
+I Want More Assignments
+
+I Want More Assignments
+
+I Want More Assignments
+
+I Want More Assignments
+
+I Want More Assignments
+
+Input
+3
+
+Output
+
+I Want More Assignments
+
+I Want More Assignments
+
+I Want More Assignments
