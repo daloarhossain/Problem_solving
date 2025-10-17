@@ -1,0 +1,33 @@
+**Problem 29: Print Numbers According to Sign**
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+You will be given an integer N.
+If N is a positive number, print all numbers from 1 to N.
+Otherwise, print all numbers from N to 0.
+
+**Note:**
+A positive number is a number that is strictly greater than 0.
+
+**Input**
+Input will contain only one integer N.
+
+**Constraints**
+−10⁵ ≤ N ≤ 10⁵
+
+**Output**
+Print the numbers according to the condition described above, separated by a space.
+
+**Examples**
+
+Input
+5
+
+Output
+1 2 3 4 5
+
+Input
+−4
+
+Output
+−4 −3 −2 −1 0
