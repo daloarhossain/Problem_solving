@@ -19,7 +19,7 @@ int main(){
    
     // Checking the conditon whether it is lucky or not;
     if(first_digit == 0 || last_digit == 0){
-        printf("NO");
+        printf("YES");
     }
     else if(first_digit % last_digit == 0 || last_digit % first_digit == 0){
         printf("YES");
