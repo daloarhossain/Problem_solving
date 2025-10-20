@@ -1,0 +1,56 @@
+**Problem 39: Remove Element from Array**
+
+**Problem Statement**
+You will be given a positive integer **N** and an array **A** of size **N**.
+After that, you will be given an index **X**.
+You need to **remove** the element at index **X** from the array and print the final array.
+
+**Note:**
+Index starts from **0**.
+After removing an element, all the remaining elements should be shifted to the left automatically.
+
+---
+
+**Input Format**
+
+* The first line will contain **N** — the size of the array.
+* The second line will contain **N** space-separated integers — the elements of the array **A**.
+* The third line will contain the integer **X** — the index of the element to remove.
+
+---
+
+**Output Format**
+Print the final array after removing the element, with spaces between elements.
+
+---
+
+**Constraints**
+1 ≤ N ≤ 10⁵
+1 ≤ A[i] ≤ 1000
+0 ≤ X < N
+
+---
+
+**Sample Input 0**
+5
+10 20 30 40 50
+2
+
+**Sample Output 0**
+10 20 40 50
+
+---
+
+**Sample Input 1**
+4
+1 2 3 4
+0
+
+**Sample Output 1**
+2 3 4
+
+---
+
+**Explanation 0**
+The element at index **2** is **30**, which is removed.
+So, the new array becomes **10 20 40 50**.
