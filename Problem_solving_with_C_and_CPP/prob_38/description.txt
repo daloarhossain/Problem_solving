@@ -1,0 +1,58 @@
+Problem 38: Add Element in Array
+
+**Problem Statement**
+You will be given a positive integer **N** and an array **A** of size **N**.
+After that, you will be given an index **X** and a value **V**.
+You need to **insert (push)** the value **V** at the position **X** in the array.
+After inserting, print the final array.
+
+**Note:**
+If the value is inserted at index **X**, all the elements from index **X** onward will be shifted to the right by one position.
+Index starts from **0**.
+
+---
+
+**Input Format**
+
+* The first line will contain **N** — the size of the array.
+* The second line will contain **N** space-separated integers — the elements of the array **A**.
+* The third line will contain two integers — **X** (index position) and **V** (value to insert).
+
+---
+
+**Output Format**
+Print the final array after inserting the value, with spaces between elements.
+
+---
+
+**Constraints**
+1 ≤ N ≤ 10⁵
+1 ≤ A[i] ≤ 1000
+0 ≤ X ≤ N
+1 ≤ V ≤ 1000
+
+---
+
+**Sample Input 0**
+5
+10 20 30 40 50
+2 99
+
+**Sample Output 0**
+10 20 99 30 40 50
+
+---
+
+**Sample Input 1**
+4
+1 2 3 4
+0 10
+
+**Sample Output 1**
+10 1 2 3 4
+
+---
+
+**Explanation 0**
+The new value **99** is inserted at index **2**.
+So the new array becomes **10 20 99 30 40 50**.
