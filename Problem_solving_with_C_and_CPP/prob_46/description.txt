@@ -1,0 +1,41 @@
+Problem 46: Positions in Array
+
+**Time limit per test:** 1 second
+**Memory limit per test:** 256 megabytes
+
+---
+
+### **Description**
+
+Given a number **N** and an array **A** of **N** numbers.
+Print all array positions that store a number **less than or equal to 10**, along with the number stored in that position.
+
+---
+
+### **Input**
+
+The first line contains a number **N (2 ≤ N ≤ 1000)** — number of elements.
+The second line contains **N** numbers **(−10⁵ ≤ Ai ≤ 10⁵)**.
+
+It’s guaranteed that there is at least one number in the array less than or equal to 10.
+
+---
+
+### **Output**
+
+For each number in the array that is **equal to or less than 10**, print a single line containing:
+A[i] = X
+where **i** is the position in the array and **X** is the number stored at that position.
+
+---
+
+### **Example**
+
+**Input**
+5
+1 2 100 0 30
+
+**Output**
+A[0] = 1
+A[1] = 2
+A[3] = 0
