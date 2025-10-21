@@ -1,0 +1,31 @@
+Problem 45: Replacement
+
+Time limit per test: 1 second
+Memory limit per test: 256 megabytes
+
+Description
+
+Given a number N and an array A of N numbers.
+Print the array after doing the following operations:
+
+Replace every positive number by 1.
+
+Replace every negative number by 2.
+
+Input
+
+The first line contains a number N (2 ≤ N ≤ 1000) — number of elements.
+The second line contains N numbers (−10⁵ ≤ Ai ≤ 10⁵).
+
+Output
+
+Print the array after the replacement, with values separated by spaces.
+
+Example 1
+
+Input
+5
+1 -2 0 3 4
+
+Output
+1 2 0 1 1
