@@ -1,0 +1,41 @@
+### Problem 49: Square or Rectangle**
+
+**Time limit per test:** 1 second
+**Memory limit per test:** 256 megabytes
+
+---
+
+### **Description**
+
+You are given the **width (w)** and **height (h)** of a shape.
+Determine whether the shape is a **Square** or a **Rectangle**.
+
+If the width and height are equal, it’s a **Square**; otherwise, it’s a **Rectangle**.
+
+---
+
+### **Input**
+
+The first line contains an integer **t (1 ≤ t ≤ 1000)** — the number of test cases.
+Each of the next **t** lines contains two integers **w** and **h (1 ≤ w, h ≤ 10⁶)** — representing the width and height of the shape.
+
+---
+
+### **Output**
+
+For each test case, print **"Square"** if the shape is a square; otherwise, print **"Rectangle"**.
+
+---
+
+### **Example**
+
+**Input**
+3
+10 10
+13 200
+300 300
+
+**Output**
+Square
+Rectangle
+Square
