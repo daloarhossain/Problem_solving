@@ -1,0 +1,53 @@
+### **Problem 48: Create A New String**
+
+**Time limit per test:** 1 second
+**Memory limit per test:** 256 megabytes
+
+---
+
+### **Description**
+
+Given two strings **S** and **T**, print **two lines** that contain the following in the same order:
+
+1. The **length** of **S** and **T**, separated by a space.
+2. A **new string** that contains **S** and **T**, separated by a space.
+
+---
+
+### **Input**
+
+The first line contains a string **S (1 ≤ |S| ≤ 10³)** — where |S| is the length of **S**.
+The second line contains a string **T (1 ≤ |T| ≤ 10³)** — where |T| is the length of **T**.
+
+---
+
+### **Output**
+
+Print two lines:
+
+* First line: the lengths of **S** and **T**, separated by a space.
+* Second line: a new string formed by joining **S** and **T** with a space.
+
+---
+
+### **Example 1**
+
+**Input**
+LEVEL
+ONE
+
+**Output**
+5 3
+LEVEL ONE
+
+---
+
+### **Example 2**
+
+**Input**
+Programming
+contest
+
+**Output**
+11 7
+Programming contest
