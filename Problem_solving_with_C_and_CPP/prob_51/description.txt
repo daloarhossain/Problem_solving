@@ -1,0 +1,52 @@
+### **Problem 51: Palindrome**
+
+**Time limit per test:** 1 second
+**Memory limit per test:** 256 megabytes
+
+---
+
+### **Description**
+
+You are given a string **S**. Determine whether the string is a palindrome or not.
+
+👉 A string is said to be a **palindrome** if it reads the same forward and backward.
+For example, **"abba"** is a palindrome, but **"abbc"** is not.
+
+---
+
+### **Input**
+
+Only one line containing a string **S (1 ≤ |S| ≤ 1000)**,
+where **|S|** is the length of the string and it consists of lowercase English letters only.
+
+---
+
+### **Output**
+
+Print **"YES"** if the string is palindrome, otherwise print **"NO"**.
+
+---
+
+### **Examples**
+
+**Input**
+abba
+
+**Output**
+YES
+
+---
+
+**Input**
+icpcassiut
+
+**Output**
+NO
+
+---
+
+**Input**
+mam
+
+**Output**
+YES
