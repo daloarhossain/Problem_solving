@@ -1,0 +1,36 @@
+Problem 63: Count the Length
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+You are given a string S. Your task is to print the length of the string.
+
+The string may contain letters, digits, and spaces, but it will not contain newline characters inside.
+
+Input
+The first line contains an integer T (1 ≤ T ≤ 100) — the number of test cases.
+Each of the following T lines contains a string S (1 ≤ |S| ≤ 1000), where |S| is the length of the string.
+
+Output
+For each test case, print a single integer — the length of the string S.
+
+Example
+
+Input
+4
+hello
+codeforces
+this is c
+1234567890
+
+Output
+5
+10
+9
+10
+
+Explanation
+
+1. "hello" has 5 characters.
+2. "codeforces" has 10 characters.
+3. "this is c" includes spaces, so total characters = 9.
+4. "1234567890" has 10 characters.
