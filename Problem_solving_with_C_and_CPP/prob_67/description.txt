@@ -1,0 +1,39 @@
+**Problem 67: Divisibility by 3**
+
+Given a number of digits N, and a number of N digits, determine whether the number is divisible by 3.
+
+**Note:**
+A number is divisible by 3 if the sum of its digits is divisible by 3.
+
+**Input Format**
+The first line will contain N, the number of digits of the number.
+The second line will contain the number itself.
+
+**Constraints**
+1 ≤ N ≤ 10⁶
+
+**Output Format**
+Print **"YES"** (without quotes) if the number is divisible by 3.
+Otherwise, print **"NO"**.
+
+**Sample Input 0**
+5
+12345
+
+**Sample Output 0**
+YES
+
+**Explanation 0**
+The sum of digits of 12345 is 1 + 2 + 3 + 4 + 5 = 15, which is divisible by 3.
+Hence, the number is divisible by 3.
+
+**Sample Input 1**
+4
+1234
+
+**Sample Output 1**
+NO
+
+**Explanation 1**
+The sum of digits of 1234 is 1 + 2 + 3 + 4 = 10, which is not divisible by 3.
+Hence, the number is not divisible by 3.
