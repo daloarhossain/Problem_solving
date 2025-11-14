@@ -1,0 +1,28 @@
+Problem 81: Print Digits using Recursion
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+Given a number N, print the digits of N separated by a space.
+
+Note: Solve this problem using recursion.
+
+Input
+First line contains a number T (1 ≤ T ≤ 10), the number of test cases.
+Next T lines will each contain a number N (0 ≤ N ≤ 10⁹).
+
+Output
+For each test case, print a single line containing the digits of the number separated by spaces.
+
+Example
+
+Input
+3
+121
+39
+123456
+
+Output
+1 2 1
+3 9
+1 2 3 4 5 6
+
